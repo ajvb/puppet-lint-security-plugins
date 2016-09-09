@@ -17,10 +17,10 @@ Gem::Specification.new do |spec|
     Checks puppet manifests for security related problems.
   EOF
 
-  spec.add_dependency             'puppet-lint', '~> 1.0'
-  spec.add_development_dependency 'rspec', '~> 3.3'
-  spec.add_development_dependency 'rspec-its', '~> 1.0'
-  spec.add_development_dependency 'rspec-collection_matchers', '~> 1.0'
+  spec.add_dependency             'puppet-lint', '~> 2.0'
+  spec.add_development_dependency 'rspec', '~> 3.5'
+  spec.add_development_dependency 'rspec-its'
+  spec.add_development_dependency 'rspec-collection_matchers'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'mail'
   spec.add_development_dependency 'yard'
